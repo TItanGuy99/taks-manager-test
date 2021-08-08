@@ -178,12 +178,12 @@ class projectsScreen extends Component {
           <Toolbar />
         </React.Fragment>
 
-        <Grid container direction="row" justifyContent="center" spacing={2}>
-          <Grid item xs={8} md={8} sm={12}>
+        <Grid container direction="row" justifyContent="center">
+          <Grid item xs={12} md={8} sm={12}>
             <Grid container direction="row">
               {this.state.projects.map((value, index) => {
                 return (
-                  <Grid item xs={6} md={6} sm={12} key={index}>
+                  <Grid item xs={12} md={6} sm={12} key={index}>
                     <ProjectBlock
                       name={value.name}
                       projectId={value.id}
@@ -195,7 +195,7 @@ class projectsScreen extends Component {
               })}
             </Grid>
           </Grid>
-          <Grid item xs={4} md={4} sm={12}>
+          <Grid item xs={12} md={4} sm={12}>
             <NewProject callAdd={this.addProject} />
           </Grid>
         </Grid>

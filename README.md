@@ -77,8 +77,12 @@ Showing the Task Manager:
 
 > Login
 
-<img src="images/projects_screen.jpg" alt="project screen">
+<img src="images/projects_screen.jpg" alt="Project screen">
 
-> Interface of the project
+> Main interface for the project
+
+<img src="images/responsive_layout.jpg" alt="Responsive layout">
+
+> Responsive Layout
 
 ## 🤝 Thanks for the opportunity - Luiz Nai - 08/08/2021.

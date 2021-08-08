@@ -26,7 +26,7 @@ class checkTask extends Component {
       <Container fixed align="left">
         <Tooltip title={this.props.date}>
           <Grid container direction="row" alignItems="center" spacing={2}>
-            <Grid item xs={8} md={8} sm={12}>
+            <Grid item xs={8} md={8} sm={8}>
               <FormControlLabel
                 control={
                   <Checkbox
@@ -53,7 +53,7 @@ class checkTask extends Component {
               item
               xs={2}
               md={2}
-              sm={12}
+              sm={2}
               className={this.props.checked ? "hide" : ""}
             >
               <DeleteIcon
@@ -69,7 +69,7 @@ class checkTask extends Component {
               item
               xs={2}
               md={2}
-              sm={12}
+              sm={2}
               className={this.props.checked ? "hide" : ""}
             >
               <EditIcon

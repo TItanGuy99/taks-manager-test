@@ -186,13 +186,13 @@ class projectBlock extends Component {
                 justifyContent="center"
                 spacing={2}
               >
-                <Grid item xs={8} md={8} sm={12}>
+                <Grid item xs={8} md={8} sm={8}>
                   <Typography variant="h5" component="h2" align="left">
                     {this.props.name}
                   </Typography>
                 </Grid>
 
-                <Grid item xs={2} md={2} sm={12}>
+                <Grid item xs={2} md={2} sm={2}>
                   <DeleteIcon
                     fontSize="small"
                     onClick={(event) => {
@@ -202,7 +202,7 @@ class projectBlock extends Component {
                   />
                 </Grid>
 
-                <Grid item xs={2} md={2} sm={12}>
+                <Grid item xs={2} md={2} sm={2}>
                   <EditIcon
                     fontSize="small"
                     onClick={(event) => {
