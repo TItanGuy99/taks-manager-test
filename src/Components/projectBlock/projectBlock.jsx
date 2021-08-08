@@ -217,8 +217,8 @@ class projectBlock extends Component {
 
               <Typography align="left">To do</Typography>
 
-              {this.state.tasks.map((value, index) => {
-                if (!value.checked) {
+              {this.state.tasks.filter(value => !('checked' in value) || !value.checked )
+              .map((value, index) => {
                   return (
                     <CheckTask
                       key={index}
@@ -231,17 +231,14 @@ class projectBlock extends Component {
                       callEdit={this.openModal}
                     />
                   );
-                } else {
-                  return <React.Fragment key={index} />;
-                }
               })}
 
               <hr />
 
               <Typography align="left">Done</Typography>
 
-              {this.state.tasks.map((value, index) => {
-                if (value.checked) {
+              {this.state.tasks.filter(value => value.checked)
+              .map((value, index) => {
                   return (
                     <CheckTask
                       key={index}
@@ -254,9 +251,6 @@ class projectBlock extends Component {
                       callEdit={this.openModal}
                     />
                   );
-                } else {
-                  return <React.Fragment key={index} />;
-                }
               })}
 
               <form
@@ -288,7 +282,6 @@ class projectBlock extends Component {
                   inputProps={{
                     maxLength: 15,
                   }}
-                  id="task_name"
                   label="Task name"
                   variant="outlined"
                   margin="normal"

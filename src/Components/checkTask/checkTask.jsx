@@ -17,7 +17,7 @@ class checkTask extends Component {
     super(props);
 
     this.state = {
-      checkedA: false,
+      checked: false,
     };
   }
 
@@ -30,8 +30,8 @@ class checkTask extends Component {
               <FormControlLabel
                 control={
                   <Checkbox
-                    checked={this.props.checked ? true : this.state.checkedB}
-                    disabled={this.props.checked ? true : this.state.checkedB}
+                    checked={this.props.checked ? true : this.state.checked}
+                    disabled={this.props.checked ? true : this.state.checked}
                     onChange={(event) => {
                       if (!this.props.checked) {
                         this.props.callDone(
