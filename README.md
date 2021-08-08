@@ -81,7 +81,7 @@ Showing the Task Manager:
 
 > Main interface for the project
 
-<img src="images/responsive_layout.jpg" alt="Responsive layout">
+<img src="images/responsive_lay.jpg" alt="Responsive layout">
 
 > Responsive Layout
 
