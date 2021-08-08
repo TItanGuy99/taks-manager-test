@@ -37,7 +37,7 @@ Still missing the Unit tests
 
 - [x] Build tools (e.g. grunt or gulp)
 - [ ] Unit tests
-## 🚀 Installing Task-Manager-Test
+## 🚀 Installing the Task-Manager-Test
 
 To install and run the project, follow these steps:
 
@@ -51,17 +51,17 @@ Install all the dependencies:
 npm i
 ```
 
-On the folder scr/Assets run this to run the 'Back-End' over the 3000 port:
+On the folder scr/Assets execute this command to run the 'Back-End' over the 3000 port:
 ```
 json-server --watch db.json
 ```
 
-On the root run this to run the 'Front-End' over the 3001 port:
+On the root execute this command to run the 'Front-End' over the 3001 port:
 ```
 npm start
 ```
 
-## ☕ Usando <nome_do_projeto>
+## ☕ How does it look?
 
 Showing the Task Manager:
 
@@ -80,3 +80,5 @@ Showing the Task Manager:
 <img src="images/projects_screen.jpg" alt="project screen">
 
 > Interface of the project
+
+## 🤝 Thanks for the opportunity - Luiz Nai - 08/08/2021.
