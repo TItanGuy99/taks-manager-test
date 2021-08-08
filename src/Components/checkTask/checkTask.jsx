@@ -25,7 +25,7 @@ class checkTask extends Component {
     return (
       <Container fixed align="left">
         <Tooltip title={this.props.date}>
-          <Grid container direction="row" alignItems="center" spacing={2}>
+          <Grid container direction="row" alignItems="center" spacing={6}>
             <Grid item xs={8} md={8} sm={8}>
               <FormControlLabel
                 control={

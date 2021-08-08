@@ -12,7 +12,7 @@ class welcomeScreen extends Component {
       <Container component="article" maxWidth="sm">
         <Box m={2}>
           <Typography variant="h3" component="h2" align="center">
-            Welcome to the Task Manager
+            Welcome to the <br/> Task Manager
           </Typography>
         </Box>
         <Box m={2}>
