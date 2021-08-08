@@ -1,0 +1,21 @@
+import "./App.css";
+import { BrowserRouter, Route } from "react-router-dom";
+import welcomeScreen from "./Components/welcomeScreen/welcomeScreen";
+import loginScreen from "./Components/loginScreen/loginScreen";
+import registerScreen from "./Components/registerScreen/registerScreen";
+import projectsScreen from "./Components/projectsScreen/projectsScreen";
+
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Route path="/" exact={true} component={welcomeScreen} />
+        <Route path="/Login" component={loginScreen} />
+        <Route path="/Register" component={registerScreen} />
+        <Route path="/Projects" component={projectsScreen} />
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
